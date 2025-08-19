@@ -1,23 +1,23 @@
 const projects = [
   {
     id: 1,
-    title: 'Project Alpha',
-    description: 'A brief description of project Alpha.',
+    title: 'My-weather-app',
+    description: 'เว็บสภาพอากาศ.',
     technologies: ['React', 'CSS', 'JavaScript'],
-    image: '/images/project-alpha.png',
-    link: 'https://www.example.com/project-alpha',
-    github: 'https://github.com/your-username/project-alpha',
+    image: 'c:\Users\potbu\Downloads\pop.png',
+    link: 'https://phacharachangyouang.github.io/my-weather-app/',
+    github: 'https://github.com/PhacharaChangyouang/my-weather-app',
   },
   {
     id: 2,
-    title: 'Project Beta',
-    description: 'A brief description of project Beta.',
-    technologies: ['Node.js', 'Express', 'MongoDB'],
-    image: '/images/project-beta.png',
-    link: 'https://www.example.com/project-beta',
-    github: 'https://github.com/your-username/project-beta',
+    title: 'Portfolio Website',
+    description: 'เว็บแนะนำตัวdraft.',
+    technologies: ['Node.js', 'css', 'html'],
+    image: 'c:\Users\potbu\Downloads\kop.png',
+    link: 'https://phacharachangyouang.github.io/portfolio_workshop/',
+    github: 'https://github.com/PhacharaChangyouang/portfolio_workshop',
   },
-  // เอาไว้เพิ่มโปเจ็ค อื่น
+  //สามารถเอาไว้เพิ่มงานอีกไดดเ้
 ];
 
 export default projects;
