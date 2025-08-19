@@ -109,3 +109,20 @@ body {
     padding: 3rem 0;
   }
 }
+/* สำหรับหน้าจอใหญ่ */
+.nav-list {
+  display: flex;
+}
+.mobile-menu-btn {
+  display: none;
+}
+
+/* สำหรับหน้าจอมือถือและแท็บเล็ต */
+@media (max-width: 768px) {
+  .nav-list {
+    display: none; /* ซ่อนเมนูสำหรับหน้าจอใหญ่ */
+  }
+  .mobile-menu-btn {
+    display: block; /* แสดงปุ่มเมนูสำหรับมือถือ */
+  }
+}
